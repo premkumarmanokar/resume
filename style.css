@@ -7,7 +7,7 @@
   font-family: 'Figtree', sans-serif;
 }
 .header {
-  background-image: url(/bg2.jpg);
+  background-image: url(bg2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,12 +19,21 @@
 }
 .navbar ul li {
   display: inline-block;
-  padding: 20px 10px;
+  padding: 20px 15px;
   font-size: 18px;
 }
 .textcenter ul li a {
   color: white;
   text-decoration: none;
+}
+.textcenter ul li a:hover{
+    background-color: white;
+    border-radius: 10px 10px;
+    color: black;
+    padding: 5px 5px;
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+    transition: .5s;
 }
 
 .myname {
@@ -41,7 +50,7 @@
 }
 .social ul li {
   display: inline-block;
-  padding: 10px;
+  padding: 5px 6px;
   border-radius: 50%;
  width: 40px;
  
@@ -52,7 +61,8 @@
   
 }
 .social ul li:hover{
-    box-shadow: 0 0 9px white;
+    box-shadow: 0 0 12px white;
+    
 }
 .about {
     display: block;
