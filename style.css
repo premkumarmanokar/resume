@@ -14,6 +14,11 @@
   height: 500px;
   opacity: 0.9;
 }
+@media only screen and (max-width: 600px){
+  .header{
+    height: 600px;
+  }
+}
 .navbar ul {
   text-align: center;
 }
